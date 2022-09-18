@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,500&display=swap" rel="stylesheet');
+@font-face{
+	font-family: "KyivTypeSerif";
+	src: url("../fonts/KyivTypeSerif-Bold.woff2") format("woff2"), url("../fonts/KyivTypeSerif-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: no;
+}
+@font-face{
+	font-family: "KyivTypeSans";
+	src: url("../fonts/KyivTypeSans-Bold.woff2") format("woff2"), url("../fonts/KyivTypeSans-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+
+}
+*{
+	font-family: "Lato";
+	font-weight: 400;
+	color: #1C3153;
+}
+.header{
+	background-color: #333;
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.article{
+	width: 1080px;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.header>p{
+	letter-spacing: 10px;
+	color: #fff;
+	text-shadow: 3px 3px 3px #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.marker{
+	padding: 10px 20px;
+	background-color: #FFD800;
+	width: 140px;
+	font-size: 18px;
+	margin-bottom: 40px;
+	text-decoration: underline;
+}
+.article h5{
+	font-family:"KyivTypeSerif", serif;
+	font-weight: 700;
+}
+.marker+h1{
+	font-family:"KyivTypeSerif",serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 150%;
+	margin-bottom: 10px;
+}
+.article__date{
+	font-size: 16px;
+	color: #c5c5c5;
+	margin-bottom: 40px;
+}
+.text{
+	font-size: 16px;
+	line-height: 150%;
+	color: #111;
+	margin-bottom: 20px;
+}
+h2{
+	font-family:"KyivTypeSerif",serif;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	margin-bottom: 40px;
+}
+.article .last{
+	margin-bottom: 50px;
+}
+img{
+	margin-bottom: 50px;
+}
+h4{
+	font-family:"KyivTypeSerif",serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	margin-bottom: 20px;
+	color: orange;
+}
+h3{
+	font-family:"KyivTypeSerif",serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 150%;
+	margin-bottom: 40px;
+}
+.fact{
+	background-color: #1C3153;
+	color: #fff;
+	padding: 30px;
+	margin-bottom: 30px;
+	line-height: 150%;
+}
+.fact span {
+	font-family:"KyivTypeSans",sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.cold-kvass__fact{
+	margin-bottom: 50px;
+}
+.bits{
+	margin-bottom: 50px;
+}
+blockquote{
+	font-family:'Cormorant Infant', serif;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 150%;
+	margin-bottom: 30px;
+}
+.fact .attention{
+	color: red;
+	text-decoration: overline;
+}
+.fact .poison{
+	color: red;
+	text-decoration: line-through;
+}
+.footer{
+	background-color: #333;
+	width: 100%;
+}
+.footer>p{
+	letter-spacing: 10px;
+	color: #fff;
+	text-shadow: 3px 3px 3px #fff;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-align: center;
+}
